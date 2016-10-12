@@ -1,0 +1,426 @@
+html, body{
+	width: 100%;
+	height:100%;
+
+}
+
+.skrollr-container{
+	width: 100%;
+	height:100%;
+	overflow:hidden;
+}
+
+h1 {
+	color: white;
+	font-family: sans-serif;
+	font-size: 150px;
+}
+
+p {
+	color: white;
+}
+
+.sections{
+	position:fixed;
+	width:200%;
+	height:200%;
+	top:0;
+	left:0;
+	background-color: red;
+}
+
+.section{
+	position:absolute;
+	top:0;
+	left:0;
+	width:50%;
+	height:50%;
+
+}
+
+#section1{
+	background-color: black;
+	border: 2px solid white;
+}
+	
+#section2{
+	background-color: black;
+	border: 2px solid white;
+	-ms-transform: translate(0%,100%); /* IE 9 */
+    -webkit-transform: translate(0%,100%); /* Chrome, Safari, Opera */
+    transform: translate(0%,100%);
+}
+
+#section3{
+	background-color: black;
+	border: 2px solid white;
+	-ms-transform: translate(100%,100%); /* IE 9 */
+    -webkit-transform: translate(100%,100%); /* Chrome, Safari, Opera */
+    transform: translate(100%,100%);	
+}
+
+#section4{
+	background-color: black;
+	border: 2px solid white;
+	-ms-transform: translate(100%,0%); /* IE 9 */
+    -webkit-transform: translate(100%,0%); /* Chrome, Safari, Opera */
+    transform: translate(100%,0%);
+}
+
+#section5{
+	background-color: black;
+	border: 2px solid white;
+	-ms-transform: translate(200%,0%); /* IE 9 */
+    -webkit-transform: translate(200%,0%); /* Chrome, Safari, Opera */
+    transform: translate(200%,0%);
+    z-index: 1;
+}
+
+#section6{
+	background-color: black;
+	border: 2px solid white;
+	-ms-transform: translate(200%,100%); /* IE 9 */
+    -webkit-transform: translate(200%,100%); /* Chrome, Safari, Opera */
+    transform: translate(200%,100%);
+}
+
+#section7{
+    background-color: black;
+    border: 2px solid white;
+    -ms-transform: translate(200%,200%); /* IE 9 */
+   -webkit-transform: translate(200%,200%); /* Chrome, Safari, Opera */
+   transform: translate(200%,200%);
+}
+
+#section8{
+    background-color: black;
+    border: 2px solid white;
+    -ms-transform: translate(200%,300%); /* IE 9 */
+   -webkit-transform: translate(200%,300%); /* Chrome, Safari, Opera */
+   transform: translate(200%,300%);
+}
+
+#section9{
+    background-color: black;
+    border: 2px solid white;
+    -ms-transform: translate(200%,400%); /* IE 9 */
+   -webkit-transform: translate(200%,400%); /* Chrome, Safari, Opera */
+   transform: translate(200%,400%);
+}
+
+#section10{
+    background-color: black;
+    border: 2px solid white;
+    -ms-transform: translate(200%,500%); /* IE 9 */
+   -webkit-transform: translate(200%,500%); /* Chrome, Safari, Opera */
+   transform: translate(200%,500%);
+}
+
+#section11{
+	background-color: black;
+	border: 2px solid white;
+	-ms-transform: translate(200%,600%); /* IE 9 */
+    -webkit-transform: translate(200%,600%); /* Chrome, Safari, Opera */
+    transform: translate(200%,600%);
+}
+
+#section12{
+	background-color: black;
+	border: 2px solid white;
+	-ms-transform: translate(200%,700%); /* IE 9 */
+    -webkit-transform: translate(200%,700%); /* Chrome, Safari, Opera */
+    transform: translate(200%,700%);
+}
+
+#section13{
+	background-color: black;
+	border: 2px solid white;
+	-ms-transform: translate(200%,800%); /* IE 9 */
+    -webkit-transform: translate(200%,800%); /* Chrome, Safari, Opera */
+    transform: translate(200%,800%);
+}
+
+#section14{
+	background-color: black;
+	border: 2px solid white;
+	-ms-transform: translate(200%,900%); /* IE 9 */
+    -webkit-transform: translate(200%,900%); /* Chrome, Safari, Opera */
+    transform: translate(200%,900%);
+}
+
+#section15{
+	background-color: black;
+	border: 2px solid white;
+	-ms-transform: translate(200%,1000%); /* IE 9 */
+    -webkit-transform: translate(200%,1000%); /* Chrome, Safari, Opera */
+    transform: translate(200%,1000%);
+}
+
+
+#section16{
+	background-color: black;
+	border: 2px solid white;
+    -ms-transform: translate(200%,1100%); /* IE 9 */
+   -webkit-transform: translate(200%,1100%); /* Chrome, Safari, Opera */
+   transform: translate(200%,1100%);
+
+}
+
+#section17{
+	background-color: black;
+	border: 2px solid white;
+    -ms-transform: translate(200%,1200%); /* IE 9 */
+   -webkit-transform: translate(200%,1200%); /* Chrome, Safari, Opera */
+   transform: translate(200%,1200%);
+
+}
+
+#section18{
+	background-color: black;
+	border: 2px solid white;
+    -ms-transform: translate(200%,1300%); /* IE 9 */
+   -webkit-transform: translate(200%,1300%); /* Chrome, Safari, Opera */
+   transform: translate(200%,1300%);
+}
+
+#section19{
+	background-color: black;
+	border: 2px solid white;
+    -ms-transform: translate(200%,1400%); /* IE 9 */
+   -webkit-transform: translate(200%,1400%); /* Chrome, Safari, Opera */
+   transform: translate(200%,1400%);
+
+}
+
+#section20{
+	background-color: black;
+	border: 2px solid white;
+    -ms-transform: translate(200%,1500%); /* IE 9 */
+   -webkit-transform: translate(200%,1500%); /* Chrome, Safari, Opera */
+   transform: translate(200%,1500%);
+
+}
+
+#section21{
+    background-color: black;
+    border: 2px solid white;
+    -ms-transform: translate(200%,1600%); /* IE 9 */
+   -webkit-transform: translate(200%,1600%); /* Chrome, Safari, Opera */
+   transform: translate(200%,1600%);
+}
+
+#section22{
+    background-color: black;
+    border: 2px solid white;
+    -ms-transform: translate(200%,1700%); /* IE 9 */
+   -webkit-transform: translate(200%,1700%); /* Chrome, Safari, Opera */
+   transform: translate(200%,1700%);
+}
+
+#section23{
+    background-color: black;
+    border: 2px solid white;
+    -ms-transform: translate(200%,1800%); /* IE 9 */
+   -webkit-transform: translate(200%,1800%); /* Chrome, Safari, Opera */
+   transform: translate(200%,1800%);
+}
+
+#section24{
+    background-color: black;
+    border: 2px solid white;
+    -ms-transform: translate(200%,1900%); /* IE 9 */
+   -webkit-transform: translate(200%,1900%); /* Chrome, Safari, Opera */
+   transform: translate(200%,1900%);
+}
+
+#section25{
+    background-color: black;
+    border: 2px solid white;
+    -ms-transform: translate(200%,2000%); /* IE 9 */
+   -webkit-transform: translate(200%,2000%); /* Chrome, Safari, Opera */
+   transform: translate(200%,2000%);
+}
+
+
+
+#helper{
+	/*display:none;*/
+	position:absolute;
+	left:0;
+	top:0;
+	height:100%;
+	width:20px;
+}
+
+.marker{
+	width:100%;
+	height:100%;
+}
+
+.one{
+	background-color: red;
+}
+
+.two{
+	background-color: blue;
+
+}
+
+.three{
+	background-color: green;
+
+}
+
+.four{
+	background-color: yellow;
+
+}
+
+.five{
+	background-color: red;
+
+}
+
+.six{
+	background-color: blue;
+}
+
+.seven{
+	background-color: green;
+
+}
+
+.eight{
+	background-color: yellow;
+
+}
+
+.nine{
+	background-color: red;
+
+}
+
+.ten{
+	background-color: blue;
+
+}
+
+.eleven{
+	background-color: green;
+
+}
+
+.twelve{
+	background-color: yellow;
+
+}
+
+.thirteen{
+	background-color: red;
+}
+
+.fourteen{
+	background-color: blue;
+
+}
+
+.fifteen{
+	background-color: green;
+
+}
+
+.sixteen{
+	background-color: yellow;
+
+}
+
+.seventeen{
+	background-color: red;
+
+}
+
+.eighteen{
+	background-color: blue;
+}
+
+.nineteen{
+	background-color: green;
+
+}
+
+.twenty{
+	background-color: yellow;
+
+}
+
+.twentyone{
+	background-color: red;
+
+}
+
+.twentytwo{
+	background-color: blue;
+
+}
+
+.twentythree{
+	background-color: green;
+
+}
+
+.twentyfour{
+	background-color: yellow;
+
+}
+
+.twentyfive{
+	background-color: red;
+}
+
+.twentysix{
+	background-color: blue;
+
+}
+
+.twentyseven{
+	background-color: green;
+
+}
+
+.twentyeight{
+	background-color: yellow;
+
+}
+
+.twentynine{
+	background-color: red;
+
+}
+
+.thirty{
+	background-color: blue;
+}
+
+
+.spin{
+	position:relative;
+	width:25%;
+	height:20px;
+	top:33%;
+	left:33%;
+	background-color: cyan;
+}
+
+.spintwo{
+	position:relative;
+	width:25%;
+	height:20px;
+	top:33%;
+	left:66%;
+	background-color: cyan;
+}
+
+
+
+
+
